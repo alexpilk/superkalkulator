@@ -1,0 +1,76 @@
+ISim log file
+Running: C:\Users\lab\Desktop\POMOCE PROJEKT UCISW 2\PS2_RX\PS2_RX_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/PS2_RX_TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 2ms
+# restart
+# run 2ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 4 ms
+# restart
+# run 4 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 4 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00ms
+# run 1.00ms
+# run 1.00ms
+# restart
+# run 1.00ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00ms
+# run 1.00ms
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# step
+Stopped at time : 1005 ns : File "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/PS2_RX_TB.vhd" Line 52
+# run 1.00ms
+# run 2.5 ms
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 3ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

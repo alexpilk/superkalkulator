@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/klawiaturka/PS2_RX/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/klawiaturka/PS2_RX/xst"
+elaborate
+-ifn Calculator.prj
+-ifmt mixed

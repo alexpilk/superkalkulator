@@ -1,0 +1,5 @@
+vhdl work "C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\debounce.vhd"
+vhdl work "C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\ps2_keyboard.vhd"
+vhdl work "C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\FSM_SendByte.vhd"
+vhdl work "C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\Calculator.vhd"
+vhdl work "C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\hardware_test.vhf"

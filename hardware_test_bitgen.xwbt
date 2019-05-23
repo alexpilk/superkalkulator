@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\hardware_test.ncd
+OUTFILE=C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master\hardware_test.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\lab\Downloads\PS2Module-Calculator-master\PS2Module-Calculator-master
+LICENSE=ISE
+USER_INFO=174693031_177724690_210552578_727

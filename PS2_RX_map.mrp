@@ -1,0 +1,12 @@
+Release 14.7 Map P.20131013 (nt)
+Xilinx Mapping Report File for Design 'PS2_RX'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off
+-c 100 -o PS2_RX_map.ncd PS2_RX.ngd PS2_RX.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Mon Apr 03 08:26:35 2017

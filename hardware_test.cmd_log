@@ -1,0 +1,292 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "hardware_test.ngc" hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym hardware_test C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.sch C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.sym 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.xst" -ofn "C:/Users/lab/Desktop/klawiaturka/PS2_RX/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 hardware_test.ngc hardware_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hardware_test_map.ncd hardware_test.ngd hardware_test.pcf 
+par -w -intstyle ise -ol high -t 1 hardware_test_map.ncd hardware_test.ncd hardware_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hardware_test.twx hardware_test.ncd -o hardware_test.twr hardware_test.pcf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f hardware_test.ut hardware_test.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.xst" -ofn "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.syr" 

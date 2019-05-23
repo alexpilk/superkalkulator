@@ -1,0 +1,12 @@
+EN ps2_keyboard NULL C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/ps2_keyboard.vhd sub00/vhpl10 1558009742
+EN fsm_sendbyte NULL C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/FSM_SendByte.vhd sub00/vhpl06 1558009740
+EN ps2_rx NULL C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/PS2_RX.vhd sub00/vhpl00 1558008364
+AR fsm_sendbyte rtl C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/FSM_SendByte.vhd sub00/vhpl07 1558009741
+AR ps2_keyboard logic C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/ps2_keyboard.vhd sub00/vhpl11 1558009743
+EN debounce NULL C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/debounce.vhd sub00/vhpl08 1558009736
+AR hardware_test behavioral C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf sub00/vhpl03 1558009745
+EN calculator NULL C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/Calculator.vhd sub00/vhpl04 1558009738
+AR ps2_rx behavioral C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/PS2_RX.vhd sub00/vhpl01 1558008365
+AR calculator behavioral C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/Calculator.vhd sub00/vhpl05 1558009739
+AR debounce logic C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/debounce.vhd sub00/vhpl09 1558009737
+EN hardware_test NULL C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf sub00/vhpl02 1558009744

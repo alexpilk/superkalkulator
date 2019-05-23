@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="11">
+<DesignStatistics TimeStamp="Mon Apr 03 08:18:34 2017"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="11">
+<attrib name="value" value="12"/></item>
+<item name="AGG_IO" rev="11">
+<attrib name="value" value="12"/></item>
+<item name="AGG_SLICE" rev="11">
+<attrib name="value" value="15"/></item>
+<item name="NUM_4_INPUT_LUT" rev="11">
+<attrib name="value" value="11"/></item>
+<item name="NUM_BONDED_IBUF" rev="11">
+<attrib name="value" value="3"/></item>
+<item name="NUM_BONDED_IOB" rev="11">
+<attrib name="value" value="9"/></item>
+<item name="NUM_BUFGMUX" rev="11">
+<attrib name="value" value="1"/></item>
+<item name="NUM_IOB_LATCH" rev="11">
+<attrib name="value" value="8"/></item>
+<item name="NUM_SLICEL" rev="11">
+<attrib name="value" value="15"/></item>
+<item name="NUM_SLICE_FF" rev="11">
+<attrib name="value" value="19"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

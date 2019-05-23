@@ -1,0 +1,2 @@
+vhdl isim_temp "PS2_RX.vhd"
+vhdl isim_temp "PS2_RX_TB.vhd"

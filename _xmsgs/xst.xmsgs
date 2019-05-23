@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">155</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TxBusy</arg>&apos; of component &apos;<arg fmt="%s" index="4">RS232</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">155</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RxRdy</arg>&apos; of component &apos;<arg fmt="%s" index="4">RS232</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">155</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RxDO</arg>&apos; of component &apos;<arg fmt="%s" index="4">RS232</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">155</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RS232</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">179</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">LCD1x64</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">190</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Busy</arg>&apos; of component &apos;<arg fmt="%s" index="4">VGAtxt48x20</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">190</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VGAtxt48x20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf</arg>&quot; line <arg fmt="%d" index="2">221</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Busy</arg>&apos; of component &apos;<arg fmt="%s" index="4">FSM_SendByte</arg>&apos;.
+</msg>
+
+<msg type="error" file="Xst" num="769" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/Calculator.vhd</arg>&quot; line <arg fmt="%d" index="2">139</arg>: Operator &lt;<arg fmt="%s" index="3">DIVIDE</arg>&gt; must have constant operands or first operand must be power of 2
+</msg>
+
+</messages>
+

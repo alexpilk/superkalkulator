@@ -1,0 +1,159 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: hardware_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "hardware_test.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "hardware_test"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : hardware_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/debounce.vhd" in Library work.
+Architecture logic of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/Calculator.vhd" in Library work.
+Entity <calculator> compiled.
+Entity <calculator> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/FSM_SendByte.vhd" in Library work.
+Architecture rtl of Entity fsm_sendbyte is up to date.
+Compiling vhdl file "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/ps2_keyboard.vhd" in Library work.
+Architecture logic of Entity ps2_keyboard is up to date.
+Compiling vhdl file "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" in Library work.
+Architecture behavioral of Entity hardware_test is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <hardware_test> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Calculator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FSM_SendByte> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <ps2_keyboard> in library <work> (architecture <logic>) with generics.
+	clk_freq = 50000000
+	debounce_counter_size = 8
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <logic>) with generics.
+	counter_size = 8
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <hardware_test> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 155: Unconnected output port 'TxBusy' of component 'RS232'.
+WARNING:Xst:753 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 155: Unconnected output port 'RxRdy' of component 'RS232'.
+WARNING:Xst:753 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 155: Unconnected output port 'RxDO' of component 'RS232'.
+WARNING:Xst:2211 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 155: Instantiating black box module <RS232>.
+WARNING:Xst:2211 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 179: Instantiating black box module <LCD1x64>.
+WARNING:Xst:753 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 190: Unconnected output port 'Busy' of component 'VGAtxt48x20'.
+WARNING:Xst:2211 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 190: Instantiating black box module <VGAtxt48x20>.
+WARNING:Xst:753 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/hardware_test.vhf" line 221: Unconnected output port 'Busy' of component 'FSM_SendByte'.
+Entity <hardware_test> analyzed. Unit <hardware_test> generated.
+
+Analyzing Entity <Calculator> in library <work> (Architecture <behavioral>).
+ERROR:Xst:769 - "C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/Calculator.vhd" line 139: Operator <DIVIDE> must have constant operands or first operand must be power of 2
+--> 
+
+Total memory usage is 201468 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+vhdl work "debounce.vhd"
+vhdl work "ps2_keyboard.vhd"
+vhdl work "FSM_SendByte.vhd"
+vhdl work "Calculator.vhd"
+vhdl work "hardware_test.vhf"

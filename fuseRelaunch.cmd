@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/PS2_RX_TB_isim_beh.exe" -prj "C:/Users/lab/Desktop/POMOCE PROJEKT UCISW 2/PS2_RX/PS2_RX_TB_beh.prj" "work.PS2_RX_TB" 

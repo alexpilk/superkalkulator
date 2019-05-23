@@ -1,0 +1,11 @@
+[Inputs]
+Clk
+Reset
+DIRdy
+TxBusy
+=DI[7:0]=
+[Outputs]
+DORdy
+Busy
+=DO[7:0]=
+[BiDir]

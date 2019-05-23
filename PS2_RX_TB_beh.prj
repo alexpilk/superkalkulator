@@ -1,0 +1,2 @@
+vhdl work "PS2_RX.vhd"
+vhdl work "PS2_RX_TB.vhd"

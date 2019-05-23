@@ -1,0 +1,2 @@
+vhdtdtfi -lib work FSM_SendByte.vhd -prj PS2_RX -o FSM_SendByte.spl -module FSM_SendByte -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FSM_SendByte.spl C:/Users/lab/Downloads/PS2Module-Calculator-master/PS2Module-Calculator-master/FSM_SendByte.sym 

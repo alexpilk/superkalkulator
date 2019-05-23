@@ -1,0 +1,8 @@
+[Inputs]
+PS2_Clk
+PS2_Data
+Clk
+[Outputs]
+DO_Rdy
+=DO[7:0]=
+[BiDir]

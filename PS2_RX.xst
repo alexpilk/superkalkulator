@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/Mily/POMOCE PROJEKT UCISW 2 03.04/PS2_RX/xst"
+elaborate
+-ifn PS2_RX.prj
+-ifmt mixed
